@@ -52,7 +52,7 @@
             // 
             // pictureBoxLogo
             // 
-            this.pictureBoxLogo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBoxLogo.BackgroundImage")));
+            this.pictureBoxLogo.BackgroundImage = global::YouTube.Properties.Resources.youtube;
             this.pictureBoxLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBoxLogo.Location = new System.Drawing.Point(12, 12);
             this.pictureBoxLogo.Name = "pictureBoxLogo";
@@ -188,9 +188,9 @@
             this.labelStatus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.labelStatus.Location = new System.Drawing.Point(12, 236);
             this.labelStatus.Name = "labelStatus";
-            this.labelStatus.Size = new System.Drawing.Size(133, 15);
+            this.labelStatus.Size = new System.Drawing.Size(280, 15);
             this.labelStatus.TabIndex = 15;
-            this.labelStatus.Text = "Status... : Pronto";
+            this.labelStatus.Text = "Status... : Esperando o uso do sistema!";
             // 
             // labelLength
             // 
