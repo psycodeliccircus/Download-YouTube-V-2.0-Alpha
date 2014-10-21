@@ -71,10 +71,10 @@
             // labelURL
             // 
             this.labelURL.AutoSize = true;
-            this.labelURL.Font = new System.Drawing.Font("Eras Bold ITC", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelURL.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelURL.Location = new System.Drawing.Point(118, 12);
             this.labelURL.Name = "labelURL";
-            this.labelURL.Size = new System.Drawing.Size(176, 19);
+            this.labelURL.Size = new System.Drawing.Size(164, 20);
             this.labelURL.TabIndex = 1;
             this.labelURL.Text = "YouTube Video URL :";
             // 
@@ -96,9 +96,9 @@
             this.labelQuality.AutoSize = true;
             this.labelQuality.Location = new System.Drawing.Point(119, 71);
             this.labelQuality.Name = "labelQuality";
-            this.labelQuality.Size = new System.Drawing.Size(70, 15);
+            this.labelQuality.Size = new System.Drawing.Size(84, 15);
             this.labelQuality.TabIndex = 3;
-            this.labelQuality.Text = "Quality :";
+            this.labelQuality.Text = "Qualidade :";
             // 
             // comboBoxQuality
             // 
@@ -133,7 +133,7 @@
             this.labelTitle.Name = "labelTitle";
             this.labelTitle.Size = new System.Drawing.Size(332, 46);
             this.labelTitle.TabIndex = 5;
-            this.labelTitle.Text = "Title :";
+            this.labelTitle.Text = "Título :";
             // 
             // labelEdge
             // 
@@ -160,7 +160,7 @@
             this.buttonExit.Name = "buttonExit";
             this.buttonExit.Size = new System.Drawing.Size(102, 47);
             this.buttonExit.TabIndex = 14;
-            this.buttonExit.Text = "&Cancel";
+            this.buttonExit.Text = "&Cancelar";
             this.buttonExit.UseVisualStyleBackColor = true;
             this.buttonExit.Click += new System.EventHandler(this.buttonCancel_Click);
             // 
@@ -178,9 +178,9 @@
             this.labelAuthor.ForeColor = System.Drawing.Color.Gray;
             this.labelAuthor.Location = new System.Drawing.Point(9, 280);
             this.labelAuthor.Name = "labelAuthor";
-            this.labelAuthor.Size = new System.Drawing.Size(203, 15);
+            this.labelAuthor.Size = new System.Drawing.Size(252, 15);
             this.labelAuthor.TabIndex = 17;
-            this.labelAuthor.Text = "Developed by Gehan Fernando.";
+            this.labelAuthor.Text = "Desenvolvido por: AugmentedSkillsBR";
             // 
             // labelStatus
             // 
@@ -188,18 +188,18 @@
             this.labelStatus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.labelStatus.Location = new System.Drawing.Point(12, 236);
             this.labelStatus.Name = "labelStatus";
-            this.labelStatus.Size = new System.Drawing.Size(126, 15);
+            this.labelStatus.Size = new System.Drawing.Size(133, 15);
             this.labelStatus.TabIndex = 15;
-            this.labelStatus.Text = "Status... : Ready";
+            this.labelStatus.Text = "Status... : Pronto";
             // 
             // labelLength
             // 
             this.labelLength.AutoSize = true;
             this.labelLength.Location = new System.Drawing.Point(248, 170);
             this.labelLength.Name = "labelLength";
-            this.labelLength.Size = new System.Drawing.Size(49, 15);
+            this.labelLength.Size = new System.Drawing.Size(56, 15);
             this.labelLength.TabIndex = 6;
-            this.labelLength.Text = "Length";
+            this.labelLength.Text = "Tamanho";
             // 
             // labelLengthValue
             // 
@@ -235,6 +235,7 @@
             this.Controls.Add(this.pictureBoxLogo);
             this.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
             this.MaximizeBox = false;
             this.Name = "FormYouTube";

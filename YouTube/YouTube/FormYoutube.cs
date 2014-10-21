@@ -109,7 +109,7 @@ namespace YouTube
                         DownloadUrlResolver info = new DownloadUrlResolver();
                         info.PopulateVideoInfo(webText, out listObj);
 
-                        labelTitle.Text = string.Format("Title : {0}", info.Title);
+                        labelTitle.Text = string.Format("Título : {0}", info.Title);
                         labelLengthValue.Text = info.VideoLength;
 
                         List<VideoInfo> lst = (from v in listObj
@@ -129,7 +129,7 @@ namespace YouTube
                     }
                     else
                     {
-                        MessageBox.Show("Invalid YouTube URL format.", this.Text,
+                        MessageBox.Show("Formato URL YouTube inválido.", this.Text,
                                     MessageBoxButtons.OK,
                                     MessageBoxIcon.Exclamation);
                     }
@@ -246,7 +246,7 @@ namespace YouTube
 
             SetControls(true, false);
 
-            labelStatus.Text = "Status... : Ready";
+            labelStatus.Text = "Status... : Pronto";
             labelStatus.Refresh();
 
             ShowProgress(0, Taskbar.TaskbarStates.NoProgress);
@@ -256,13 +256,13 @@ namespace YouTube
 
             if (e.Cancelled)
             {
-                MessageBox.Show("Download has been canceled.",
+                MessageBox.Show("Download foi cancelado.",
                     this.Text, MessageBoxButtons.OK,
                     MessageBoxIcon.Exclamation);
             }
             else
             {
-                MessageBox.Show("File downloaded successfully.\n\n" + Environment.GetFolderPath(Environment.SpecialFolder.MyVideos), 
+                MessageBox.Show("Arquivo baixados com sucesso.\n\n" + Environment.GetFolderPath(Environment.SpecialFolder.MyVideos), 
                     this.Text, MessageBoxButtons.OK, 
                     MessageBoxIcon.Information);
             }

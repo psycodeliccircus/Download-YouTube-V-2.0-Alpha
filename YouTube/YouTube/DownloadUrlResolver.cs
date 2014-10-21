@@ -39,7 +39,7 @@ namespace YouTube
                 infocollection = GetDownloadUrls(json);
             }
             else
-                throw new YouTubeFormatException("Invalid YouTube URL.");
+                throw new YouTubeFormatException("URL YouTube inválido.");
         }
 
         private IEnumerable<VideoInfo> GetDownloadUrls(JObject value, bool decryptSignature = true)
@@ -66,9 +66,9 @@ namespace YouTube
                 if (ex is WebException || ex is VideoNotAvailableException)
                     throw;
 
-                throw new YoutubeParseException("Could not parse the Youtube page.\n" +
-                                                "This may be due to a change of the YouTube page structure.\n" +
-                                                "Please report this bug at => krsolucoesweb@gmail.com", ex);
+                throw new YoutubeParseException("Não foi possível analisar a página do YouTube.\n" +
+                                                "Isto pode ser devido a uma alteração da estrutura da página YouTube.\n" +
+                                                "Por favor, reporte este bug no E-mail => krsolucoesweb@gmail.com", ex);
             }
         }
 
@@ -92,7 +92,7 @@ namespace YouTube
             string streamMapString = streamMap == null ? null : streamMap.ToString();
 
             if (streamMapString == null || streamMapString.Contains("been+removed"))
-                throw new VideoNotAvailableException("Video has been removed or has an age restricted.");
+                throw new VideoNotAvailableException("O vídeo foi removido ou tem uma restrição de idade.");
 
             return streamMapString;
         }

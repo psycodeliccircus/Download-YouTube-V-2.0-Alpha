@@ -1,0 +1,10 @@
+C:\Users\marcio\Desktop\YouTube\YouTube\bin\Release\YouTube.exe.config
+C:\Users\marcio\Desktop\YouTube\YouTube\bin\Release\YouTube.exe
+C:\Users\marcio\Desktop\YouTube\YouTube\bin\Release\YouTube.pdb
+C:\Users\marcio\Desktop\YouTube\YouTube\bin\Release\Newtonsoft.Json.dll
+C:\Users\marcio\Desktop\YouTube\YouTube\obj\Release\YouTube.csprojResolveAssemblyReference.cache
+C:\Users\marcio\Desktop\YouTube\YouTube\obj\Release\YouTube.FormYouTube.resources
+C:\Users\marcio\Desktop\YouTube\YouTube\obj\Release\YouTube.Properties.Resources.resources
+C:\Users\marcio\Desktop\YouTube\YouTube\obj\Release\YouTube.csproj.GenerateResource.Cache
+C:\Users\marcio\Desktop\YouTube\YouTube\obj\Release\YouTube.exe
+C:\Users\marcio\Desktop\YouTube\YouTube\obj\Release\YouTube.pdb
